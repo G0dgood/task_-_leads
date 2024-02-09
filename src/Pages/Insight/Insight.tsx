@@ -122,7 +122,7 @@ const Insight = () => {
 									</div>
 								</div>
 								<div>
-									<p className='task-text'>Completed Task</p>
+									<p className='task-text'>Upcoming Task</p>
 									<h3>10.2K</h3>
 								</div>
 							</div>
@@ -133,7 +133,7 @@ const Insight = () => {
 									</div>
 								</div>
 								<div>
-									<p className='task-text'>Assigned Lead</p>
+									<p className='task-text'>Inprogress Lead</p>
 									<h3>10.2K</h3>
 								</div>
 							</div>
@@ -144,7 +144,7 @@ const Insight = () => {
 									</div>
 								</div>
 								<div>
-									<p className='task-text'>Boards Lead</p>
+									<p className='task-text'>Completed Lead</p>
 									<h3>450</h3>
 								</div>
 							</div>
@@ -155,7 +155,7 @@ const Insight = () => {
 									</div>
 								</div>
 								<div>
-									<p className='task-text'>Completed Lead</p>
+									<p className='task-text'>Overdue Lead</p>
 									<h3>23</h3>
 								</div>
 							</div>

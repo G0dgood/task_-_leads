@@ -62,7 +62,7 @@ const AdminDashboard = () => {
 									</div>
 								</div>
 								<div>
-									<p className='task-text'>Facebook Lead</p>
+									<p className='task-text'>Instagram Lead</p>
 									<h3>10.2K</h3>
 								</div>
 							</div>
