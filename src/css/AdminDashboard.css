@@ -1,0 +1,296 @@
+.dashboard-container-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #E2E2E2;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+}
+
+
+.dashboard-first-card{
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid #DBDBDB; 
+}
+
+.dashboard-first-card-support{
+display: flex;
+justify-content: space-between; 
+}
+
+.dashboard-first-card2{
+display: flex;
+justify-content: space-between; 
+align-items: center;
+ 
+}
+.dashboard-second-card{
+display: flex;
+justify-content: space-between;
+}
+
+.dashboard-first-card-h{
+	margin-bottom: 5px;
+	/* font-size: 14px;
+	color: var(--small-text); */
+}
+.dashboard-first-card-p{
+	margin-bottom: 5px;
+	font-size: 14px;
+	color: var(--text);
+}
+
+.dashboard-first-card-icon{
+ font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--accent-purple);
+	background-color:#ffcccc;
+	/* background-color: var(--accent-purple-light); */
+	border-radius: 5px;
+	font-size: smaller;
+	white-space:nowrap;
+	padding: 0px 10px;
+	height: 30px;
+	border: 1px solid #ffcccc;
+}
+.dashboard-first-card-icon:hover{
+ font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--accent-purple);
+	background-color:#ffcccc;
+	/* background-color: var(--accent-purple-light); */
+	border-radius: 5px;
+	font-size: smaller;
+	white-space:nowrap;
+	padding: 0px 10px;
+	height: 30px;
+		border: 1px solid var(--accent-purple);
+}
+
+.dashboard-radius-icon{
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.task-text{
+	color: #696B6E;
+}
+
+/* .dashboard-second-card-circle{
+	width: 50px;
+	height: 50px; 
+	display: flex;
+	justify-content: center;
+	align-items: center;  
+	border-width: 1.2px;  
+ border-style: solid; 
+  border-image: linear-gradient(20deg, #ff66667a 24%, #ff9999 55%);
+  border-image-slice: 1;  
+  border-radius: 5%;
+} */
+
+.dashboard-second-card-circle {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(20deg, #ff66667a 24%, #990000 55%);
+  border-radius: 50%;
+}
+
+/* Optional: Add an inner element to contain the content */
+.dashboard-second-card-circle .inner-content {
+  overflow: hidden;
+  border-radius: 50%;
+		width: 47px;
+  height: 47px;
+		background-color: #fff;
+		 display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.dashboard-center-item{
+width: 100%;
+height: 350px;
+	border: 1px solid #E2E2E2;
+	 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		border-radius: 10px;
+		padding: 1rem;
+}
+
+.dashboard-center-item-container{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	gap: 15px;
+	margin-top: 20px;
+}
+ 
+.dashboard-first-card2{
+	width: 100%;
+}
+.dashboard-center-item-container-insight{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 15px;
+	margin-top: 20px; 
+}
+
+.dashboard-bottom-item-container{
+	width: 100%;
+	height: 300px;
+	border: 1px solid #E2E2E2;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.Doughnutcontainer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100% !important;
+	height: 220px; 
+}
+
+.DoughnutChatIcon1{
+	width: 10px;
+	height: 10px;
+	border-radius: 50px;
+	background-color: #990000;
+}
+.DoughnutChatIcon2{
+	width: 10px;
+	height: 10px;
+	border-radius: 50px;
+	background-color: #cc3333cd;
+}
+.DoughnutChatIcon3{
+	width: 10px;
+	height: 10px;
+	border-radius: 50px;
+	background-color: #ffcccc;
+}
+
+.DoughnutChatIconcon{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1.8rem;
+	margin-top: 1.2rem;
+}
+
+.DoughnutChatIconconsub{
+		display: flex;
+	justify-content: center;
+	align-items: center;
+		gap: 4px;
+}
+
+.DoughnutChatIconconsub p{
+color: #616467;
+font-size: 14px;
+}
+
+.Linestyle{
+	width: auto;
+	height: 260px;
+}
+
+
+.dashboard-bottom-item-container{
+	padding: 1rem;
+	width: 100%;
+}
+
+.TeamsPerformancechart{
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	
+}
+.Linestyle2{
+	width: 100% !important;
+	height: 220px;
+} 
+.Linestyle2 canvas{
+	width: 100% !important;
+	/* margin-block-start: 70px; */
+}
+.TeamsPerformancechartsub1{ 
+border-right: 1.5px solid #ededed;
+padding: .5rem;
+}
+.TeamsPerformancechartsub2{ 
+	max-width: 100% !important;
+  border: 1px solid #000;
+  height: 80%; 
+  padding: 10px 0;
+
+}
+.chart-container{
+	width: 100% !important;
+}
+
+.TeamsPerformanceUL{
+	display: flex;
+	flex-direction: column;
+	gap: .1rem;
+	color: #616467;
+font-size: 14px;
+}
+
+.TeamsPerformanceUL li { 
+	padding: 10px;
+	border-radius: 5px;
+	width: 100%;
+	cursor: pointer;
+	display: block;
+	font-weight: 600;
+}
+.TeamsPerformanceUL li:hover{
+	background-color: #ededed !important;
+ 
+}
+
+
+@media only screen and (max-width:1600px){
+	.dashboard-second-card{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 30px;
+
+	}
+	.dashboard-center-item-container {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+	}
+	.TeamsPerformancechart {
+    display: grid;
+	grid-template-columns: 1fr;
+	}
+	.dashboard-center-item-container-insight {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.TeamsPerformancechartsub1 ul{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.dashboard-bottom-item-container {
+	height: auto;
+}
+}
+@media only screen and (max-width: 280px){
+.dashboard-second-card {
+    grid-template-columns: 1fr;
+}
+}

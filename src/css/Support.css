@@ -1,0 +1,133 @@
+.dashboard-first-card-support-flex{
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem; 
+}
+
+.dashboard-first-fimail{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+
+.dashboard-first-card-icon-support{
+ font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	background-color:#ffcccc;
+	background-color: #000;
+	border-radius: 5px;
+	font-size: smaller;
+	white-space:nowrap;
+	padding: 0px 10px;
+	height: 30px;
+	border: 1px solid #000;
+}
+.dashboard-first-card-icon-support:hover{
+ font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #000;
+	background-color:#fff;
+	/* background-color: var(--accent-purple-light); */
+	border-radius: 5px;
+	font-size: smaller;
+	white-space:nowrap;
+	padding: 0px 10px;
+	height: 30px;
+		border: 1px solid #000;
+}
+
+.dashboard-first-support-card{
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+	padding-bottom: 2rem;
+  border-bottom: 1px solid #E2E2E2; 
+		overflow: auto;
+}
+
+.my-teams-flex-image-post{
+  width: 60px;
+  height: 60px;
+  background-color: #ffcccc;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+		align-items: center;
+}
+
+.dashboard-first-support-card-second{
+	 border: 1px solid #E2E2E2;
+  border-radius: 10px;
+  padding: 1rem;
+		 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.support-card-second{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: none !important;
+    outline: 0;
+    box-shadow: none !important;
+				background-color: #fff !important;
+}
+
+.accordion-button:not(.collapsed) {
+  	color: var(--accent-purple);
+    box-shadow: none !important;
+				background-color: #fff !important;
+}
+
+.accordion { 
+    --bs-accordion-border-width: none !important; 
+}
+.accordion-item {
+    color: var(--bs-accordion-color);
+    background-color: var(--bs-accordion-bg);
+ border-bottom: 1px solid #E2E2E2;
+}
+
+.accordion-header {
+	font-size: 12px !important;
+}
+.last-item  {
+  border-bottom: none; 
+}
+.accordion-body {
+ 	font-size: 11px !important;
+		color: var(--text);
+}
+
+.first-support-call-container{
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+}
+
+.emailImage-image{
+	width: 80px;
+	height: 80px;
+}
+
+.emailImage-image-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-input-button-emailImage{
+	display: flex !important;
+	align-items: center !important;
+	gap: 1rem;
+}
+
+
